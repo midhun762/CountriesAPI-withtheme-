@@ -1,0 +1,96 @@
+
+body {
+  transition: background 0.2s ease;
+	
+  min-height: 100rem;
+  padding-top: 4.5rem;
+  background-color: rgb(255, 255, 255);
+}
+.dark-mode {
+  background-color: #21212d;
+  transition: all 0.5s ease;
+	
+	color: rgb(14, 29, 235);
+ 
+  }
+ 
+  .button-dark{
+    margin-left: 3rem;
+    z-index: 0;
+    background-color: transparent;
+    border: 1px transparent ;
+    width: 4rem;
+    height: 3rem;
+    color: #ba34db;
+    border-radius: 1rem;
+  }
+ 
+  .navbar{
+    height: auto;
+  }
+  .button-dark:hover{
+    background-color: transparent;
+  }
+  .navbar.h4{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  .navbar{
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: aqua;
+    background: linear-gradient(90deg, rgba(157,0,206,1) 0%, rgba(47,11,70,1) 0%);
+    
+  }
+  .dropdown{
+    margin-left: 20px;
+  }
+  .europe{
+    margin-top: 15rem;
+  }
+  .asia{
+    margin-top: 15rem
+  }
+  .north-america{
+    margin-top: 15rem;
+  }
+  .south-america{
+    margin-top: 15rem;
+  }
+  .africa{
+    margin-top: 15rem;
+  }
+  .card{
+    font-weight: 600;
+    text-decoration: double;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  }
+  .card:hover{
+    opacity: 1.6;
+    background-color: rgb(35, 49, 177);
+    color: aliceblue;
+    font-weight: bold;
+    transform: uppercase;
+  }
+  .antartica{
+    margin-top: 30rem;
+  }
+
+.message{
+  font-weight: bold;
+  color: rgb(224, 20, 37);
+  font-size: 3rem;
+  text-shadow: #21212d;
+  text-decoration:double;
+}
+.oceania{
+  margin-top: 25rem;
+}
+footer{
+  background-color: darkgrey;
+  box-shadow: #21212d;
+}
